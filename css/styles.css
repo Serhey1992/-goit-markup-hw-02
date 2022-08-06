@@ -1,0 +1,68 @@
+.page-header{
+    background-color: #fff;
+}
+.logo{
+    font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        color: #000000;
+}
+.site-nav .link{
+    color: #212121;
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: #2196F3;
+}
+.feedback .link{
+    color: #757575;
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+}
+.feedback .link:hover,
+.feedback .link:focus{
+    color: #2196F3;
+}
+.page{
+    background-color: #F5F5F5;
+    color: #757575;
+}
+.hero-title{
+    color: #ffffff;
+    font-family: 'Roboto';
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.3;
+}
+.hero-button{
+    background-color: #2196F3;
+    color: #ffffff;
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.8;
+}
+.section-title{
+    color: #212121;
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+}
+
+
+/* колір фону #F5F5F5 */
+/* колір заголовків #212121 */
+/* колір тексту #757575 */
+/*колір героя заголовка і кнопки #FFFFFF*/
+/* колі акцент #2196F3 */
+/* колір мила і  телефону в футері rgba(255, 255, 255, 0.6)*/
