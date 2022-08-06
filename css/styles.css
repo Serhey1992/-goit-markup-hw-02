@@ -1,3 +1,8 @@
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --acent-color: #2196F3;
+}
 .page-header{
     background-color: #fff;
 }
@@ -9,7 +14,7 @@
         color: #000000;
 }
 .site-nav .link{
-    color: #212121;
+    color: var(--title-text-color);
     font-family: 'Roboto';
         font-weight: 500;
         font-size: 14px;
@@ -18,10 +23,10 @@
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
-    color: #2196F3;
+    color: var(--acent-color);
 }
 .feedback .link{
-    color: #757575;
+    color: var(--primary-text-color);
     font-family: 'Roboto';
         font-weight: 500;
         font-size: 14px;
@@ -30,12 +35,18 @@
 }
 .feedback .link:hover,
 .feedback .link:focus{
-    color: #2196F3;
+    color: var(--acent-color);
 }
+/*баді*/
+
 .page{
     background-color: #F5F5F5;
-    color: #757575;
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
 }
+/*секція герой*/
 .hero-title{
     color: #ffffff;
     font-family: 'Roboto';
@@ -51,18 +62,50 @@
         font-size: 16px;
         line-height: 1.8;
 }
-.section-title{
+.hero-button:hover,
+.hero-button:focus{
     color: #212121;
+}
+/*заголовки секцій*/
+.section-title{
+    color: var(--title-text-color);
     font-family: 'Roboto';
         font-weight: 700;
         font-size: 36px;
         line-height: 1.2;
 }
+/*перелік переваг*/
+.benefits .title{
+    color: var(--title-text-color);
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.1;
+}
+.benefits .post{
+    font-family: 'Roboto';
+        font-size: 14px;
+        line-height: 1.7;
+}
+/* what we do*/
+.actings .link:hover,
+.actings .link:focus{
+    color: var(--acent-color);
+}
+/*Team section*/
+.team .title{
+    color: var(--title-text-color);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+}
+.team .post{
+    font-size: 16px;
+    line-height: 1.2;
+}
 
 
-/* колір фону #F5F5F5 */
 /* колір заголовків #212121 */
 /* колір тексту #757575 */
-/*колір героя заголовка і кнопки #FFFFFF*/
 /* колі акцент #2196F3 */
 /* колір мила і  телефону в футері rgba(255, 255, 255, 0.6)*/
