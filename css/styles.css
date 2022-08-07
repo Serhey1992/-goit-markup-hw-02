@@ -14,31 +14,25 @@
         font-size: 26px;
         line-height: 1.2;
         color: #000000;
+        text-decoration: none;
 }
 .logo:hover,
 .logo:focus{
     color: var(--acent-color);
 }
-.site-nav .link{
+.site-nav .link,
+.feedback .link{
     color: var(--title-text-color);
-    font-family: 'Roboto';
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.1;
-        letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
     color: var(--acent-color);
 }
-.feedback .link{
-    color: var(--primary-text-color);
-    font-family: 'Roboto';
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.1;
-        letter-spacing: 0.02em;
-}
+
 .feedback .link:hover,
 .feedback .link:focus{
     color: var(--acent-color);
