@@ -30,6 +30,9 @@
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+.site-nav{
+    list-style: none;
+}
 .feedback .link {
     color: #757575;
     font-weight: 500;
@@ -38,7 +41,9 @@
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-
+.feedback{
+    list-style: none;
+}
 .site-nav .link:hover,
 .site-nav .link:focus{
     color: var(--acent-color);
@@ -57,8 +62,7 @@ body{
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.03em;
-}
-   
+}   
 
 /*секція герой*/
 .hero-section{
@@ -93,6 +97,9 @@ body{
         text-align: center;
 }
 /*перелік переваг*/
+.benefits{
+    list-style: none;
+}
 .benefits .title{
     color: var(--title-text-color);
         font-weight: 700;
@@ -104,11 +111,17 @@ body{
         line-height: 1.7;
 }
 /* what we do*/
+.actings{
+    list-style: none;
+}
 .actings .link:hover,
 .actings .link:focus{
     color: var(--acent-color);
 }
 /*Team section*/
+.team{
+    list-style: none;
+}
 .team-section{
     background-color: #F5F4FA;
 }
@@ -125,6 +138,19 @@ body{
 /*footer*/
 .footer{
     background-color: #2F303A;
+}
+.footer-section{
+    list-style: none;
+}
+.footer-logo{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+        color: var(--primary-bcg-color);
 }
 .footer-section .map{
     color: var(--primary-bcg-color);
@@ -155,6 +181,9 @@ body{
     color: var(--acent-color);
 }
 /*button portfolio*/
+.button{
+    list-style: none;
+}
 .button .nav-button{
     font-family: inherit;
     background-color: #EEEEEE;
@@ -170,6 +199,9 @@ body{
     color: var(--primary-bcg-color);
 }
 /*examples portfolio*/
+.examples{
+    list-style: none;
+}
 .examples-title{
     color: var(--title-text-color);
     font-weight: 700;
