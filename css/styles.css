@@ -152,6 +152,9 @@ body{
         text-decoration: none;
         color: var(--primary-bcg-color);
 }
+.footer-logo:focus{
+    color: var(--acent-color);
+}
 .footer-section .map{
     color: var(--primary-bcg-color);
     font-size: 14px;
