@@ -109,6 +109,9 @@ body{
     color: var(--acent-color);
 }
 /*Team section*/
+.team-section{
+    background-color: #F5F4FA;
+}
 .team .title{
     color: var(--title-text-color);
     font-weight: 500;
